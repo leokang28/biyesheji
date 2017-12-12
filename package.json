@@ -1,0 +1,41 @@
+{
+  "name": "ksleo-vue",
+  "version": "1.0.0",
+  "description": "something with vuejs",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --config webpack.config.js --progress --display-modules --colors --display-reasons",
+    "dev": "webpack-dev-server --open",
+    "server": "node server.js"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "ksleo",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "vue": "^2.5.2",
+    "vue-progress": "^0.2.1",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.2",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.4.5",
+    "style-loader": "^0.19.0",
+    "vue-loader": "^13.3.0",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.9.2"
+  }
+}

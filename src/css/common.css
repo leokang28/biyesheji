@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  color:#ffffff;
+}
+body{
+  font-size: 14px;
+  line-height: 1.7;
+  background-color: #ffffff;
+  margin:0;
+  padding:0;
+}
+h3{
+  margin-top:10px;
+}
+a:hover{
+  text-decoration: none;
+  color:#222222;
+}

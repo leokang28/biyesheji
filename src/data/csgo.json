@@ -1,0 +1,28 @@
+{
+  "csgo":[
+    {
+      "id":4,
+      "title":"G2",
+      "date":1508469449823,
+      "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut necessitatibus iste impedit dignissimos non commodi expedita, aliquam explicabo illo consequuntur enim quidem ducimus a officiis! Consectetur praesentium aut quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut necessitatibus iste impedit dignissimos non commodi expedita, aliquam explicabo illo consequuntur enim quidem ducimus a officiis! Consectetur praesentium aut quas?"
+    },
+    {
+      "id":5,
+      "title":"CLOUD9",
+      "date":1508469449823,
+      "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut necessitatibus iste impedit dignissimos non commodi expedita, aliquam explicabo illo consequuntur enim quidem ducimus a officiis! Consectetur praesentium aut quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut necessitatibus iste impedit dignissimos non commodi expedita, aliquam explicabo illo consequuntur enim quidem ducimus a officiis! Consectetur praesentium aut quas?"
+    },
+    {
+      "id":6,
+      "title":"FAZE!!",
+      "date":1508469449823,
+      "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut necessitatibus iste impedit dignissimos non commodi expedita, aliquam explicabo illo consequuntur enim quidem ducimus a officiis! Consectetur praesentium aut quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut necessitatibus iste impedit dignissimos non commodi expedita, aliquam explicabo illo consequuntur enim quidem ducimus a officiis! Consectetur praesentium aut quas?"
+    },
+    {
+      "id":7,
+      "title":"NAVI",
+      "date":1508469449823,
+      "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut necessitatibus iste impedit dignissimos non commodi expedita, aliquam explicabo illo consequuntur enim quidem ducimus a officiis! Consectetur praesentium aut quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut necessitatibus iste impedit dignissimos non commodi expedita, aliquam explicabo illo consequuntur enim quidem ducimus a officiis! Consectetur praesentium aut quas?"
+    }
+  ]
+}
