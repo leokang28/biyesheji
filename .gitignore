@@ -4,4 +4,4 @@ bower_components
 dist
 npm-debug.log
 test.js
-server.js
+/server.js
