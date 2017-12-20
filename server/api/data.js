@@ -5,7 +5,7 @@ var path=require('path')
 var PATH='./data/'
 const {execFile} = require('child_process');
 
-const DB_CONN_STR='mongodb://localhost:27017/tb_db';
+const DB_CONN_STR='mongodb://119.29.146.210:27017/tb_db';
 
 
 router.get('/read',function(req,res,next){
