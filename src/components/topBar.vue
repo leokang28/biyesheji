@@ -19,7 +19,7 @@
         <li><router-link :to='{name:"game",params:{name:"lol"}}'>数据展示</router-link></li>
         <li><router-link :to='{name:"game",params:{name:"csgo"}}'>CS:GO</router-link></li>
       </ul>
-      <div class="input-group">
+      <div class="input-group" style='margin-top:8px;'>
         <input type="text" class="form-control pull-right" placeholder="Search for...">
         <span class="input-group-btn">
           <button class="btn btn-default" type="button">Go!</button>
