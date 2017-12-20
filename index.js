@@ -3,8 +3,10 @@ import './src/css/common.css';
 
 import Vue from 'vue';
 import App from './app.vue'
+import echarts from 'echarts'
 import 'bootstrap/dist/js/bootstrap.min.js';
 import router from './src/routes/routes.js';
+Vue.prototype.$echarts=echarts
 // import vueProgress from 'vue-progress';
 
 // const options= {
