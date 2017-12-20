@@ -21,16 +21,6 @@ export default {
       name:'home'
     }
   },
-  mounted() {
-    var XHR=new XMLHttpRequest();
-    XHR.open('get','api/read?type=jd',true)
-    XHR.onreadystatechange=function(){
-      if (XHR.readyState==4 && XHR.status===200||XHR.status===304){
-        console.log(XHR.responseText);
-      }
-    }
-    XHR.send();
-  },
   beforeDestroy() {
     event.$emit('getType','home');
   },

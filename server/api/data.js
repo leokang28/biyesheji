@@ -10,9 +10,10 @@ const DB_CONN_STR='mongodb://localhost:27017/tb_db';
 
 router.get('/read',function(req,res,next){
   var type=String(req.query.type);
+  console.log(type);
   var s={}
   var db=mongo.db(DB_CONN_STR)
-  db.collection(type).find({},{limit: 5}).toArray(function (err, items) {
+  db.collection(type).find({}).toArray(function (err, items) {
     s.data=[];
     for(let i in items){
       s.data.push(items[i]);
@@ -29,7 +30,7 @@ router.get('/read',function(req,res,next){
         })
         setTimeout(resolve(),10000)
       }).then(function(){
-        db.collection(type).find({},{limit: 5}).toArray(function (err, items){
+        db.collection(type).find({}).toArray(function (err, items){
           for(let i in items){
             s.data.push(items[i]);
           }
@@ -41,5 +42,5 @@ router.get('/read',function(req,res,next){
     }
     db.close();
   });
-})
+});
 module.exports = router;

@@ -35,6 +35,7 @@ def spide(q):
     price = re.findall(r'"view_price":"([^"]+)"',resp.text,re.I)    
     sale=re.findall(r'"view_sales":"([^"]+)"',resp.text,re.I)    
     loc = re.findall(r'"item_loc":"([^"]+)"',resp.text,re.I)
+    nick=re.findall(r'"nick":"([^"]+)"',resp.text,re.I)
     x = len(sale)     #每一页商品的数量
 
     for i in range(0,x):    #把列表的数据保存到文件中
@@ -43,7 +44,8 @@ def spide(q):
         "name":title[i],
         "price":float(price[i]),
         "sale":xiaoliang,
-        "loc":loc[i]
+        "loc":loc[i],
+        "nick":nick[i]
       }
       items.append(item)
   col.insert(items)
