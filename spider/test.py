@@ -1,3 +1,12 @@
+# import requests
+# from bs4 import BeautifulSoup
+# url='https://s.taobao.com/list?q=%E7%89%9B%E4%BB%94%E8%A3%A4&cat=50344007&style=grid&seller_type=taobao&spm=a217m.8316598.1000187.1';
+
+# res=requests.get(url);
+# soup=BeautifulSoup(res.text,"html5lib")
+# print(res.text)
+# for k in soup.find_all('a'):
+
 import re
 import requests
 import sys
@@ -11,7 +20,7 @@ ss=sys.argv[1]
 def spide(q):
   payload = {'q': '牛仔裤','s':0,'ie':'utf8'}  #字典传递url参数   
   payload['q']=ss
-  client=MongoClient('119.29.146.210',27017)
+  client=MongoClient('localhost',27017)
   db=client.tb_db
   col=db[ss] 
   items=[]
@@ -28,7 +37,7 @@ def spide(q):
     loc = re.findall(r'"item_loc":"([^"]+)"',resp.text,re.I)
     x = len(sale)     #每一页商品的数量
 
-    for i in range(0,x):   
+    for i in range(0,x):    #把列表的数据保存到文件中
       xiaoliang=int(re.findall(r'\d{0,}',sale[i])[0])
       item={
         "name":title[i],
